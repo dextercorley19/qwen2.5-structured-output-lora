@@ -1,0 +1,35 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "image": {
+      "_type": "Image"
+    },
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "response": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "company_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "industry": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "slide_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "slide_number": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

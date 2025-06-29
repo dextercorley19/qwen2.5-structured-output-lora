@@ -1,0 +1,8 @@
+{
+  "base_model": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "lora_path": "./qwen_ultra_lightweight_lora",
+  "training_complete": true,
+  "training_type": "ultra_lightweight",
+  "total_examples": 6,
+  "successful_steps": 6
+}

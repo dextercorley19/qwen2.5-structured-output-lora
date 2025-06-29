@@ -1,0 +1,62 @@
+{
+  "total_companies": 11,
+  "total_training_entries": 210,
+  "companies": [
+    {
+      "name": "Front",
+      "industry": "saas",
+      "slides": 21
+    },
+    {
+      "name": "Brex",
+      "industry": "fintech",
+      "slides": 19
+    },
+    {
+      "name": "Match Box",
+      "industry": "social",
+      "slides": 10
+    },
+    {
+      "name": "Buffer",
+      "industry": "saas",
+      "slides": 13
+    },
+    {
+      "name": "UberCab",
+      "industry": "transportation",
+      "slides": 25
+    },
+    {
+      "name": "Mint",
+      "industry": "fintech",
+      "slides": 16
+    },
+    {
+      "name": "Dropbox",
+      "industry": "saas",
+      "slides": 22
+    },
+    {
+      "name": "Divvy",
+      "industry": "real_estate",
+      "slides": 14
+    },
+    {
+      "name": "SEOMoz",
+      "industry": "saas",
+      "slides": 36
+    },
+    {
+      "name": "Intercom",
+      "industry": "saas",
+      "slides": 8
+    },
+    {
+      "name": "thefacebook",
+      "industry": "social",
+      "slides": 26
+    }
+  ],
+  "regenerated_at": "2025-06-21T18:44:53.579211"
+}

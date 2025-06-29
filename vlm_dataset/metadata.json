@@ -1,0 +1,40 @@
+{
+  "created_at": "2025-06-21T18:47:03.300095",
+  "total_entries": 210,
+  "train_size": 168,
+  "val_size": 21,
+  "test_size": 21,
+  "companies": [
+    "Intercom",
+    "Buffer",
+    "thefacebook",
+    "Match Box",
+    "UberCab",
+    "Brex",
+    "Front",
+    "Divvy",
+    "SEOMoz",
+    "Mint",
+    "Dropbox"
+  ],
+  "industries": [
+    "social",
+    "transportation",
+    "saas",
+    "real_estate",
+    "fintech"
+  ],
+  "slide_types": [
+    "market",
+    "problem",
+    "financials",
+    "solution",
+    "competition",
+    "team",
+    "funding",
+    "title_slide",
+    "business_model",
+    "content",
+    "traction"
+  ]
+}
