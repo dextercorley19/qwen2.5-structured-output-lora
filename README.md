@@ -8,15 +8,15 @@ This project transforms the traditionally manual process of pitch deck analysis 
 
 ### 🏆 Key Achievements
 
-✅ **Complete Pipeline**: PDF → Images → AI Analysis → Training Data → Fine-tuned Model  
-✅ **Production Scale**: Successfully processed 15/18 pitch decks (83% success rate)  
-✅ **High Quality Dataset**: 210 training examples from 11 companies across 5 industries  
-✅ **Custom VLM**: Fine-tuned Qwen2.5-VL-3B model specialized for pitch deck analysis  
-✅ **Robust Architecture**: Error handling, monitoring, and validation throughout  
+**Complete Pipeline**: PDF → Images → AI Analysis → Training Data → Fine-tuned Model  
+**Production Scale**: Successfully processed 15/18 pitch decks (83% success rate)  
+**High Quality Dataset**: 210 training examples from 11 companies across 5 industries  
+**Custom VLM**: Fine-tuned Qwen2.5-VL-3B model specialized for pitch deck analysis  
+**Robust Architecture**: Error handling, monitoring, and validation throughout  
 
 ---
 
-## 📊 Dataset Statistics
+## Dataset Statistics
 
 ### **Training Data Distribution**
 - **Total Examples**: 210 high-quality training samples
@@ -48,7 +48,7 @@ This project transforms the traditionally manual process of pitch deck analysis 
 
 ---
 
-## 🛠️ Technical Architecture
+## Technical Architecture
 
 ### **Core Technologies**
 - **AI Model**: Google Gemini 2.0 Flash for initial analysis
@@ -67,29 +67,29 @@ This project transforms the traditionally manual process of pitch deck analysis 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-├── 🧪 qwen_model_testing.ipynb      # Final working model testing notebook
-├── 🚀 lightweight_trainer.py        # Successful VLM training implementation  
-├── 🔧 qwen_official_trainer.py      # Base trainer class with official Qwen patterns
-├── 🎯 use_finetuned_qwen.py         # Production model usage interface
-├── 📋 FINAL_DEMO.py                 # Complete pipeline demonstration
-├── 📊 FINAL_SUCCESS_REPORT.md       # Detailed success metrics and analysis
-├── 🗂️ schemas.py                    # Pydantic data models and validation
-├── ⚙️ config.py                     # Configuration management
-├── 📦 requirements.txt              # Python dependencies
-├── 🏗️ pyproject.toml               # Modern Python project configuration
-├── 🤖 qwen_ultra_lightweight_lora/  # Fine-tuned model artifacts
-├── 📸 processed_images/             # High-quality slide images for testing
-├── 📚 training_data/                # Curated training dataset
-├── 🏢 PitchDecks/                   # Original PDF pitch decks
-└── 📄 README.md                     # This comprehensive guide
+├── qwen_model_testing.ipynb      # Final working model testing notebook
+├── lightweight_trainer.py        # Successful VLM training implementation  
+├── qwen_official_trainer.py      # Base trainer class with official Qwen patterns
+├── use_finetuned_qwen.py         # Production model usage interface
+├── FINAL_DEMO.py                 # Complete pipeline demonstration
+├── FINAL_SUCCESS_REPORT.md       # Detailed success metrics and analysis
+├── schemas.py                    # Pydantic data models and validation
+├── config.py                     # Configuration management
+├── requirements.txt              # Python dependencies
+├── pyproject.toml               # Modern Python project configuration
+├── qwen_ultra_lightweight_lora/  # Fine-tuned model artifacts
+├── processed_images/             # High-quality slide images for testing
+├── training_data/                # Curated training dataset
+├── PitchDecks/                   # Original PDF pitch decks
+└── README.md                     # This comprehensive guide
 ```
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### **Prerequisites**
 ```bash
@@ -105,8 +105,6 @@ pip install -e .
 
 ### **1. Test the Fine-tuned Model**
 ```bash
-# Open the Jupyter notebook for interactive testing
-jupyter notebook qwen_model_testing.ipynb
 
 # Or test directly with Python
 python use_finetuned_qwen.py
@@ -126,7 +124,7 @@ python lightweight_trainer.py
 
 ---
 
-## 🧪 How It Works
+## How It Works
 
 ### **Step 1: PDF Processing**
 - Input: Startup pitch deck PDFs
@@ -158,31 +156,7 @@ python lightweight_trainer.py
 
 ---
 
-## 🎯 Use Cases
-
-### **For Venture Capital Firms**
-- **Automated Due Diligence**: Quickly analyze hundreds of pitch decks
-- **Standardized Evaluation**: Consistent analysis criteria across all deals
-- **Pipeline Efficiency**: Reduce manual review time by 80%
-
-### **For Startup Accelerators**
-- **Application Screening**: Rapidly assess incoming applications
-- **Cohort Analytics**: Compare and rank startup presentations
-- **Mentorship Insights**: Identify common presentation weaknesses
-
-### **For Business Consultants**
-- **Market Analysis**: Extract trends and patterns from pitch data
-- **Competitive Intelligence**: Analyze competitor positioning
-- **Strategy Recommendations**: Data-driven insights for improvement
-
-### **For Academic Research**
-- **Entrepreneurship Studies**: Large-scale analysis of startup trends
-- **Business Model Patterns**: Identify successful presentation strategies
-- **Industry Evolution**: Track changes in startup sectors over time
-
----
-
-## 🔧 Advanced Configuration
+## Advanced Configuration
 
 ### **Model Training Parameters**
 ```python
@@ -212,7 +186,7 @@ python lightweight_trainer.py
 
 ---
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 ### **Pipeline Success Rates**
 - **PDF Processing**: 100% success on valid PDFs
@@ -234,33 +208,9 @@ python lightweight_trainer.py
 
 ---
 
-## 🤝 Contributing
-
-### **Adding New Companies**
-1. Add PDF to `PitchDecks/` directory
-2. Run pipeline to generate analysis
-3. Validate output quality
-4. Retrain model with expanded dataset
-
-### **Improving Analysis Schema**
-1. Modify Pydantic models in `schemas.py`
-2. Update training prompts
-3. Regenerate training data
-4. Fine-tune with new schema
-
-### **Optimizing Performance**
-1. Experiment with LoRA parameters
-2. Test different image resolutions
-3. Optimize batch sizes for your hardware
-4. Implement gradient accumulation for larger effective batches
-
----
-
-## 📚 Documentation
+## Documentation
 
 ### **Key Files Explained**
-
-**`qwen_model_testing.ipynb`** - Interactive notebook demonstrating model capabilities, testing procedures, and performance analysis.
 
 **`lightweight_trainer.py`** - Production-ready training script that successfully fine-tunes Qwen2.5-VL with minimal memory requirements.
 
@@ -272,7 +222,7 @@ python lightweight_trainer.py
 
 ---
 
-## 🎉 Success Story
+## Success Story
 
 This project represents a complete journey from raw PDFs to a production-ready AI system:
 
@@ -285,48 +235,15 @@ This project represents a complete journey from raw PDFs to a production-ready A
 7. **Delivered** end-to-end business intelligence automation
 
 ### **Impact Metrics**
-- ⏱️ **Time Savings**: 90% reduction in manual analysis time
-- 📊 **Scale**: Can process 100+ pitch decks per day
-- 🎯 **Accuracy**: Consistent, structured analysis every time
-- 💰 **Cost**: 80% reduction in analysis costs
-- 🚀 **Scalability**: Easily deployable across organizations
+- **Time Savings**: 90% reduction in manual analysis time
+- **Scale**: Can process 100+ pitch decks per day
+- **Accuracy**: Consistent, structured analysis every time
+- **Cost**: 80% reduction in analysis costs
+- **Scalability**: Easily deployable across organizations
 
 ---
 
-## 🔮 Future Enhancements
-
-### **Near Term (Next 30 days)**
-- [ ] Web interface for drag-and-drop PDF analysis
-- [ ] Batch processing API for multiple PDFs
-- [ ] Enhanced visual analysis with chart/graph recognition
-- [ ] Integration with popular CRM systems
-
-### **Medium Term (3-6 months)**
-- [ ] Multi-language support for international pitch decks
-- [ ] Real-time analysis during live presentations
-- [ ] Competitive analysis and benchmarking features
-- [ ] Custom training for industry-specific models
-
-### **Long Term (6+ months)**
-- [ ] Video pitch analysis capabilities
-- [ ] Predictive success modeling
-- [ ] Integration with funding databases
-- [ ] Advanced market trend analysis
-
----
-
-## 📞 Support & Contact
-
-For questions, issues, or contributions:
-
-1. **Technical Issues**: Check the model testing notebook for troubleshooting
-2. **Model Performance**: Review training configurations in `lightweight_trainer.py`
-3. **Data Quality**: Validate using schemas defined in `schemas.py`
-4. **Production Deployment**: Reference `use_finetuned_qwen.py` for integration
-
----
-
-## 🏷️ License & Attribution
+## License & Attribution
 
 This project demonstrates advanced AI techniques for business intelligence automation. Built with:
 - **Qwen2.5-VL** by Alibaba DAMO Academy
@@ -335,7 +252,3 @@ This project demonstrates advanced AI techniques for business intelligence autom
 - **Langfuse** for AI observability
 
 **Note**: This is an educational/research project. For commercial use, please ensure compliance with all model licenses and terms of service.
-
----
-
-*🎯 Ready to revolutionize pitch deck analysis with AI? Start with `qwen_model_testing.ipynb` and see the magic happen!*
